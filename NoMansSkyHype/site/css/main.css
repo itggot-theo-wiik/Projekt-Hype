@@ -3,6 +3,13 @@ body {
 
 }
 
+p {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,19 +22,32 @@ body {
 
 }
 
+.title {
+    font-size: 10vh;
+
+}
+
 .header {
-    background-color: #4BABA9;
-    background-color: (0, 255, 255, 0.5);
+    background-color: #006C6C;
     width: 100%;
-    height: 10vh;
+    height: 5vh;
     position: fixed;
 
 }
 
 .main {
-    height: 90vh;
+    height: 100vh;
     background: url(../img/start.jpg) center no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.text_container {
+    text-align: center;
 
 }
 
@@ -39,5 +59,5 @@ body {
 }
 
 .ruta {
-    height: 10vh;
+    /*height: 10vh;*/
 }
