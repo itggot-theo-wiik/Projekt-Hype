@@ -37,7 +37,7 @@ p {
 
 .main {
     height: 100vh;
-    background: url(../img/start.jpg) center no-repeat;
+    background: url(../img/test.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
