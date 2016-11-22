@@ -1,19 +1,16 @@
 body {
     background-color: black;
-
 }
 
-p {
+p, a {
     color: white;
     font-family: 'Julius Sans One', sans-serif;
-    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-
+    text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
 }
 
 * {
     margin: 0;
     padding: 0;
-
 }
 
 .container {
@@ -24,11 +21,13 @@ p {
 
 .title {
     font-size: 10vh;
+    padding-bottom: 80px;
 
 }
 
 .header {
-    background-color: #006C6C;
+    background-color: #A42140;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.75);
     width: 100%;
     height: 5vh;
     position: fixed;
@@ -37,8 +36,76 @@ p {
 
 .main {
     height: 100vh;
-    background: url(../img/test.jpg) center no-repeat;
+    width: 100vw;
+    background: url(../img/fixed.jpg) center no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    position: fixed;
+    z-index: -1;
+
+}
+
+.text_container {
+    text-align: center;
+
+
+}
+
+.text_container_friends {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 33%;
+}
+
+
+.text_container_friends_small {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items:flex-end;
+    width: 100%;
+    height: 33%;
+}
+
+.filler_flex_friends {
+    flex-grow: 1;
+    width: 100%;
+    height: 33%;
+}
+
+.friends {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: url(../img/Friends.png) center no-repeat;
+    background-size: cover;
+    box-shadow: 0px -2px 18px 0px rgba(0,0,0,0.75);
+
+}
+
+.asterix {
+    font-size: 2vh;
+    padding: 10px;
+
+}
+
+.ruta {
+    /*height: 10vh;*/
+}
+
+.scroller1 {
+    width: 100%;
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -46,18 +113,24 @@ p {
 
 }
 
-.text_container {
-    text-align: center;
-
-}
-
-.friends {
+.explore {
     height: 100vh;
-    background: url(../img/Friends.png) center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: url(../img/explore.jpg) center no-repeat;
     background-size: cover;
 
 }
 
-.ruta {
-    /*height: 10vh;*/
+.next {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: url(../img/melkermoo.jpg) center no-repeat;
+    background-size: cover;
+
 }
