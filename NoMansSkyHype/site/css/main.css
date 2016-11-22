@@ -8,6 +8,11 @@ p, a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
+.title {
+    font-size: 10vh;
+    padding-bottom: 80px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,13 +21,6 @@ p, a {
 .container {
     display: flex;
     flex-direction: column;
-
-}
-
-.title {
-    font-size: 10vh;
-    padding-bottom: 80px;
-
 }
 
 .header {
@@ -30,10 +28,8 @@ p, a {
     background: url(../img/TOP-BAR.png) center;
     box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.75);
     width: 100%;
-    height: 5vh;
     height: 45px;
     position: fixed;
-
 }
 
 .main {
@@ -41,22 +37,25 @@ p, a {
     width: 100vw;
     background: url(../img/start.jpg) center no-repeat;
     background-size: cover;
-    display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
     position: fixed;
+    display: flex;
     z-index: -1;
-
 }
 
 .text_container {
     text-align: center;
-
-
 }
 
-.text_container_friends {
+.friends_flexbox1 {
+    flex-grow: 1;
+    width: 100%;
+    height: 33%;
+}
+
+.friends_flexbox2 {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -66,8 +65,7 @@ p, a {
     height: 33%;
 }
 
-
-.text_container_friends_small {
+.friends_flexbox3 {
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
@@ -76,63 +74,41 @@ p, a {
     height: 33%;
 }
 
-.filler_flex_friends {
-    flex-grow: 1;
-    width: 100%;
-    height: 33%;
-}
-
-.friends {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    background: url(../img/Friends.png) center no-repeat;
-    background-size: cover;
-    box-shadow: 0px -2px 18px 0px rgba(0,0,0,0.75);
-
-}
-
 .asterix {
     font-size: 2vh;
     padding: 10px;
-
-}
-
-.ruta {
-    /*height: 10vh;*/
 }
 
 .scroller1 {
     width: 100%;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
+}
 
+.friends, .explore, .unique {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-size: cover;
+}
+
+.friends {
+    background: url(../img/Friends.png) center no-repeat;
+    box-shadow: 0px -2px 18px 0px rgba(0,0,0,0.75);
+    background-size: cover;
 }
 
 .explore {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
     background: url(../img/explore2.jpg) center no-repeat;
     background-size: cover;
-
 }
 
 .unique {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
     background: url(../img/animal2.jpg) center no-repeat;
     background-size: cover;
-
 }
