@@ -1,3 +1,17 @@
+a:link, a:visited {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: ghostwhite;
+}
+a:active {
+    color: ghostwhite;
+}
+/*LÄNK STYLING OVAN*/
+
 body {
     background-color: black;
 }
@@ -11,6 +25,16 @@ p, a {
 .title {
     font-size: 10vh;
     padding-bottom: 80px;
+}
+
+.title_s {
+    font-size: 7vh;
+    padding-bottom: 80px;
+}
+
+.title_scroller2 {
+    padding-bottom: 0px;
+    font-size: 10vh;
 }
 
 * {
@@ -79,13 +103,17 @@ p, a {
     padding: 10px;
 }
 
-.scroller1 {
+.scroller1, .scroller2 {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
+}
+
+.scroller2 {
+    height: 40vh;
 }
 
 .friends, .explore, .unique {
@@ -111,4 +139,10 @@ p, a {
 .unique {
     background: url(../img/animal2.jpg) center no-repeat;
     background-size: cover;
+}
+
+.footer {
+    height: 20vh;
+    background-color: #5B9687;
+
 }
