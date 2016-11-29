@@ -12,18 +12,11 @@ a:active {
 }
 /*LÄNK STYLING OVAN*/
 
-@font-face{
-    font-family: "geonms-webfont";
-    src: url('geonms-webfont.ttf'),
-    url('geonms-webfont.eot'); /* IE */
-    font-family: GeosansLight-NMS;
-}
-
 body {
     background-color: black;
 }
 
-p, a {
+p{
     color: white;
     font-family: GeosansLight-NMS;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
@@ -62,22 +55,7 @@ p, a {
     flex-direction: row;
 }
 
-.lol {
-    max-width: 1920px;
-    max-height: 1080px;
-    height: 35px;
-    width: 100%;
-    position: fixed;
-    top:0;
-    border-bottom: solid #ffffff 1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.lel {
+.link {
     height: 100%;
     width: 25%;
     display: flex;
@@ -89,50 +67,14 @@ p, a {
     transition: all 0.5s ease;
 }
 
-.lul {
-    height: 100%;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    opacity: 0.50;
-    background-color: #000a1d;
-    transition: all 0.5s ease;
-}
-
-.lyl {
-    height: 100%;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    opacity: 0.50;
-    background-color: #000a1d;
-    transition: all 0.5s ease;
-}
-
-.lil {
-    height: 100%;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    opacity: 0.50;
-    background-color: #000a1d;
-    transition: all 0.5s ease;
-}
-
-.fap {
+.header_text {
     font-family: GeosansLight-NMS;
     color: white;
     font-size: 2em;
 
 }
 
-.lel:hover {
+.link:hover {
     opacity: 1;
 }
 
@@ -202,18 +144,21 @@ p, a {
     background: url(../img/Friends.png) center no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
+    z-index: 1;
 }
 
 .explore {
     background: url(../img/explore.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    z-index: -1;
 }
 
 .unique {
     background: url(../img/animal2.jpg) center no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
+    z-index: 1;
 }
 
 .main {
@@ -221,6 +166,7 @@ p, a {
     background: url(../img/start.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    z-index: -1;
 }
 
 .footer {
