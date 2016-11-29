@@ -12,6 +12,12 @@ a:active {
 }
 /*LÄNK STYLING OVAN*/
 
+@font-face{
+    font-family: "geonms-webfont";
+    src: url('geonms-webfont.ttf'),
+    url('geonms-webfont.eot'); /* IE */
+}
+
 body {
     background-color: black;
 }
@@ -19,6 +25,7 @@ body {
 p, a {
     color: white;
     font-family: 'Julius Sans One', sans-serif;
+    font-family: 'geonms-webfont';
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
