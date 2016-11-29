@@ -195,14 +195,19 @@
       <workItem from="1479375443554" duration="6843000" />
       <workItem from="1479454286069" duration="36000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1480424109608" duration="37000" />
 =======
       <workItem from="1480424198662" duration="109000" />
+>>>>>>> origin/master
+=======
+      <workItem from="1480424198662" duration="161000" />
 >>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="6916000" />
   </component>
@@ -213,10 +218,13 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
     <option name="totallyTimeSpent" value="6988000" />
+=======
+    <option name="totallyTimeSpent" value="7040000" />
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> origin/master
