@@ -16,6 +16,7 @@ a:active {
     font-family: "geonms-webfont";
     src: url('geonms-webfont.ttf'),
     url('geonms-webfont.eot'); /* IE */
+    font-family: GeosansLight-NMS;
 }
 
 body {
@@ -24,24 +25,20 @@ body {
 
 p, a {
     color: white;
-    font-family: 'Julius Sans One', sans-serif;
-    font-family: 'geonms-webfont';
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family: GeosansLight-NMS;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
+
 }
 
 .title {
-    font-size: 10vh;
+    font-size: 12vh;
     padding-bottom: 80px;
 }
 
-.title_s {
-    font-size: 7vh;
+.title_main {
+    font-size: 12vh;
     padding-bottom: 80px;
-}
-
-.title_scroller2 {
-    padding-bottom: 0px;
-    font-size: 10vh;
+    letter-spacing: 20px;
 }
 
 * {
@@ -61,24 +58,101 @@ p, a {
     width: 100%;
     height: 45px;
     position: fixed;
-}
-
-.main {
-    height: 100vh;
-    width: 100vw;
-    background: url(../img/start.jpg) center no-repeat;
-    background-size: cover;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    position: fixed;
     display: flex;
-    z-index: -1;
+    flex-direction: row;
 }
 
-.text_container {
-    text-align: center;
+.lol {
+    max-width: 1920px;
+    max-height: 1080px;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    border-bottom: solid #ffffff 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.lel {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.lul {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.lyl {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.lil {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.fap {
+    font-family: GeosansLight-NMS;
+    color: white;
+    font-size: 2em;
+
+}
+
+.lel:hover {
+    opacity: 1;
+}
+
+.lul:hover {
+    opacity: 1;
+}
+
+.lyl:hover {
+    opacity: 1;
+}
+
+.lil:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
 
 .friends_flexbox1 {
     flex-grow: 1;
@@ -110,42 +184,43 @@ p, a {
     padding: 10px;
 }
 
-.scroller1, .scroller2 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-}
 
-.scroller2 {
-    height: 40vh;
-}
 
-.friends, .explore, .unique {
+
+.friends, .explore, .unique, .main {
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
     background-size: cover;
+    text-align: center;
+    font-family: GeosansLight-NMS;
 }
 
 .friends {
     background: url(../img/Friends.png) center no-repeat;
-    box-shadow: 0px -2px 18px 0px rgba(0,0,0,0.75);
     background-size: cover;
+    box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
 }
 
 .explore {
-    background: url(../img/explore2.jpg) center no-repeat;
+    background: url(../img/explore.jpg) center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .unique {
     background: url(../img/animal2.jpg) center no-repeat;
     background-size: cover;
+    box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
+}
+
+.main {
+    height: 100vh;
+    background: url(../img/start.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .footer {
