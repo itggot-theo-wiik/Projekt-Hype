@@ -20,6 +20,7 @@ p{
     color: white;
     font-family: GeosansLight-NMS;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
+    z-index: 2;
 
 }
 
@@ -90,12 +91,6 @@ p{
     opacity: 1;
 }
 
-
-
-
-
-
-
 .friends_flexbox1 {
     flex-grow: 1;
     width: 100%;
@@ -125,9 +120,6 @@ p{
     font-size: 2vh;
     padding: 10px;
 }
-
-
-
 
 .friends, .explore, .unique, .main {
     height: 80vh;
@@ -167,6 +159,17 @@ p{
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
+
+    overflow: hidden;
+}
+
+video {
+    z-index: -1;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+
 }
 
 .footer {
