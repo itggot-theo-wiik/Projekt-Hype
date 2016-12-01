@@ -53,70 +53,65 @@ p{
     position: fixed;
     display: flex;
     flex-direction: row;
+    opacity: 0.9;
 }
 
-.link {
+.link, .link_logo {
     height: 100%;
-    width: 25%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    opacity: 0.50;
-    background-color: #000a1d;
+    opacity: 1;
     transition: all 0.5s ease;
+}
+
+.link_logo {
+    justify-content: flex-start;
+
 }
 
 .header_text {
     font-family: GeosansLight-NMS;
+    text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
 
 }
 
 .link:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
 
-.lul:hover {
-    opacity: 1;
-}
-
-.lyl:hover {
-    opacity: 1;
-}
-
-.lil:hover {
-    opacity: 1;
-}
-
-.friends_flexbox1 {
-    flex-grow: 1;
+.flexbox1, .flexbox2, .flexbox3, .arrow_flexbox3 {
     width: 100%;
     height: 33%;
-}
-
-.friends_flexbox2 {
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    width: 100%;
-    height: 33%;
 }
 
-.friends_flexbox3 {
-    display: flex;
-    flex-direction: column;
+.logo {
+    width: 50px;
+    opacity: 1.0;
+}
+
+.flexbox3 {
     justify-content:flex-end;
     align-items:flex-end;
-    width: 100%;
-    height: 33%;
+}
+
+.arrow_flexbox3 {
+    justify-content:flex-end;
+    margin-bottom: 30px;
+
 }
 
 .asterix {
-    font-size: 2vh;
+    font-size: 2.5vh;
     padding: 10px;
 }
 
@@ -145,7 +140,7 @@ p{
     background: url(../img/Friends.png) center no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
-    /*z-index: 1;*/
+    z-index: 1;
 }
 
 .explore {
@@ -159,7 +154,7 @@ p{
     background: url(../img/animal2.jpg) center no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
-    /*z-index: 1;*/
+    z-index: 1;
 }
 
 video {
