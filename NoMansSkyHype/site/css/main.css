@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "GeosansLight-NMS";
+    src:url('geonms-webfont.tff') format('opentype');
+}
+
 a:link, a:visited {
     text-decoration: none;
 }
