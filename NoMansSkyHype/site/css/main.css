@@ -272,12 +272,7 @@ video {
 }
 
 .article_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    font-size: 1vw;
+    font-size: 2vw;
     color: black;
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     width: 70%; 
@@ -285,7 +280,8 @@ video {
         
 }
 
-#friends {
-    background-attachment: fixed
+#friends, #explore, #unique {
+    background-attachment: fixed;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
     
 }
