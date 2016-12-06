@@ -35,7 +35,7 @@ p{
 }
 
 .title, .title_svart {
-    font-size: 6.4vw;
+    font-size: 3.4em;
     padding-bottom: 80px;
 }
 
@@ -96,7 +96,7 @@ p{
     font-family: GeosansLight-NMS, sans-serif;
     text-align: center;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1em;
 
 }
 
@@ -209,16 +209,23 @@ video {
 
 }
 
-.footer {
-    height: 20vh;
-    background-color: #5B9687;
-
-}
-
-.buy {
+.buy, .footer {
     height: 100vh;
     background-color: white;
 
+}
+
+.footer {
+    padding: 40px;
+    height: auto;
+    /*background-color: #5B9687;*/
+    background-color: white;
+
+}
+
+#main_buy {
+    margin-bottom: 35px;
+    
 }
 
 .buy2 {
@@ -233,13 +240,14 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 0px;
 
 }
 
 .buy_button {
     background-color: #03A678;
     border-radius: 100px;
-    padding: 10px;
+    padding: 20px;
     font-size: 3em;
 
 }
@@ -247,6 +255,11 @@ video {
 .bild_cover {
     margin-right: 50px;
 
+}
+
+.TEST_OK {
+    min-width: 10px;
+    
 }
 
 .text_svart {
@@ -261,18 +274,16 @@ video {
     font-size: 5em;
     transition: all 0.1s ease;
 
-
 }
 
 .article {
-    height: 60vh;
     background-color: white;
     padding: 40px;
     
 }
 
 .article_text {
-    font-size: 2vw;
+    font-size: 1.4em;
     color: black;
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     width: 70%; 
