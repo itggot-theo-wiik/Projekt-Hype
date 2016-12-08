@@ -28,8 +28,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+                <state relative-caret-position="-382">
+                  <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -42,8 +42,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16">
-                  <caret line="199" column="14" lean-forward="true" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+                <state relative-caret-position="187">
+                  <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -68,6 +68,9 @@
       <find>explor</find>
       <find>explore</find>
       <find>unique</find>
+      <find>cont</find>
+      <find>header</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -168,7 +171,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -254,22 +257,22 @@
       <workItem from="1480634043155" duration="395000" />
       <workItem from="1481025670229" duration="118000" />
       <workItem from="1481185841417" duration="193000" />
-      <workItem from="1481186067572" duration="2908000" />
+      <workItem from="1481186067572" duration="4573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35920000" />
+    <option name="totallyTimeSpent" value="37585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1193265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1193265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -302,7 +305,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../JohnMetan/site/index.html" />
     <entry file="file://$PROJECT_DIR$/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -582,18 +584,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/shop.html" />
-    <entry file="file://$PROJECT_DIR$/site/index.html">
+    <entry file="file://$PROJECT_DIR$/../../Projekt-Hype-fap/template/site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="199" column="14" lean-forward="true" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           <folding />
         </state>
       </provider>
