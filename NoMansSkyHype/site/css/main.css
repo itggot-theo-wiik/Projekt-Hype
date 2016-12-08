@@ -24,7 +24,8 @@ a:active {
 /*LÄNK STYLING OVAN*/
 
 body {
-    background-color: black;
+    background-color: white;
+    z-index: 0;
 }
 
 p{
@@ -176,6 +177,7 @@ p{
     box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
     z-index: 1;
     transition: all 1s ease;
+    position: relative;
 }
 
 /*
@@ -190,7 +192,6 @@ p{
     background: url(../img/explore.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    z-index: -1;
 }
 
 .unique {
@@ -198,6 +199,7 @@ p{
     background-size: cover;
     box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
     z-index: 1;
+    position: relative;
 }
 
 video {
@@ -209,17 +211,19 @@ video {
 
 }
 
-.buy, .footer {
+.buy, .buybottom {
     height: 100vh;
     background-color: white;
 
 }
 
-.footer {
+.buybottom {
     padding: 40px;
     height: auto;
     /*background-color: #5B9687;*/
     background-color: white;
+    position: relative;
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
 
 }
 
@@ -295,4 +299,11 @@ video {
     background-attachment: fixed;
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
     
+}
+
+.footer {
+    height: 30vh;
+    width: 100%;
+    background-color: #5f5f5f;
+    background-attachment: fixed;
 }
