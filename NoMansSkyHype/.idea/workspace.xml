@@ -22,11 +22,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.41463414">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="368">
                   <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="secret.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/site/secret.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="533">
+                  <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -110,8 +120,8 @@
       <find>logo</find>
       <find>video</find>
       <find>main</find>
-      <find>länk</find>
       <find>buybottom</find>
+      <find>länk</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -126,6 +136,7 @@
         <option value="$PROJECT_DIR$/site/unique.html" />
         <option value="$PROJECT_DIR$/site/explore.html" />
         <option value="$PROJECT_DIR$/site/css/main.css" />
+        <option value="$PROJECT_DIR$/site/secret.html" />
       </list>
     </option>
   </component>
@@ -299,12 +310,12 @@
       <workItem from="1481025670229" duration="118000" />
       <workItem from="1481185841417" duration="193000" />
       <workItem from="1481186067572" duration="4939000" />
-      <workItem from="1481191224294" duration="2276000" />
+      <workItem from="1481191224294" duration="2381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40227000" />
+    <option name="totallyTimeSpent" value="40332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,14 +367,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../JohnMetan/site/css/main.css" />
     <entry file="file://$PROJECT_DIR$/site/friends.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -664,6 +667,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/secret.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding />
         </state>
       </provider>
