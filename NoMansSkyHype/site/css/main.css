@@ -106,8 +106,7 @@ p{
 
 rofl {
     height: 100vh;
-    width: 100%;
-    background: url(../img/sean.jpg)
+    background: url(../img/sean.jpg);
     background-size: cover;
 
 }
