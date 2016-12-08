@@ -72,7 +72,6 @@ p{
     position: fixed;
     display: flex;
     flex-direction: row;
-    opacity: 0.9;
     z-index: 2;
 }
 
